@@ -1,0 +1,175 @@
+html, body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica,"ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3";
+  font-size: 15px; }
+
+html, ul, li, div, header, footer, body, p {
+  margin: 0;
+  padding: 0; }
+
+a img, :link img, :visited img {
+  border: 0px; }
+
+nav, ul {
+  list-style: none; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+input {
+  outline: none;
+  padding: 1px 0px; }
+
+.clear {
+  zoom: 1; }
+  .clear:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both; }
+
+.wrapper {
+  width: 100%;
+  background-color: #E3EEEC; }
+
+form {
+  height: 40px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 10px 0;
+  color: #88C9BC;
+  background-color: #fff; }
+  form i {
+    font-size: 14px; }
+  form input {
+    border: none;
+    padding-left: 5px;
+    height: 15px;
+    width: 90%;
+    line-height: 15px;
+    color: #88C9BC; }
+
+.catalog {
+  width: 100%;
+  background: #3CC2A5; }
+  .catalog li {
+    background: #3CC2A5;
+    float: left;
+    height: 32px;
+    width: 25%;
+    padding: 9px 0; }
+    .catalog li a {
+      width: 100%;
+      text-align: center;
+      color: #fff; }
+      .catalog li a i {
+        opacity: 0.8;
+        display: block;
+        font-size: 18px; }
+      .catalog li a span {
+        font-size: 12px;
+        display: block;
+        opacity: 0.8; }
+  .catalog .ColorOn {
+    background-color: #3CC2A5;
+    -webkit-filter: brightness(0.93); }
+
+.school {
+  margin: 10px 3%;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15); }
+  .school i {
+    color: #32C3A5;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top: 5px; }
+  .school span {
+    color: #32C3A5;
+    font-size: 13px; }
+  .school a {
+    padding-top: 3px;
+    font-size: 12px;
+    display: block;
+    color: #999999; }
+
+.switch-wrapper {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 1.5%; }
+  .switch-wrapper .switch {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 1.5%; }
+    .switch-wrapper .switch .publish, .switch-wrapper .switch .profile {
+      display: block;
+      background-color: #fff;
+      border-radius: 2px;
+      -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+      padding: 10px 0; }
+      .switch-wrapper .switch .publish img, .switch-wrapper .switch .profile img {
+        display: block;
+        width: 102px;
+        margin: 0 auto; }
+
+.goods-wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 1.5%; }
+  .goods-wrapper .goods {
+    margin-bottom: 10px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 1.5%; }
+    .goods-wrapper .goods .exam .top {
+      height: 0;
+      width: 100%;
+      padding-bottom: 100%; }
+      .goods-wrapper .goods .exam .top img {
+        width: 100%;
+        overflow: hidden; }
+    .goods-wrapper .goods .exam .bottom {
+      box-sizing: border-box;
+      padding-left: 4px;
+      height: 44px;
+      width: 100%;
+      background-color: #fff;
+      position: relative; }
+      .goods-wrapper .goods .exam .bottom p {
+        font-size: 12px;
+        color: #24B19C;
+        line-height: 22px; }
+      .goods-wrapper .goods .exam .bottom span {
+        color: #858D8E;
+        font-size: 12px; }
+      .goods-wrapper .goods .exam .bottom .price {
+        position: absolute;
+        bottom: 6px;
+        right: 4px;
+        color: #f75c2f; }
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  width: 100%; }
+  footer span {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    color: #AAAAAA; }
+  footer a {
+    position: absolute;
+    right: 8px;
+    bottom: 12px;
+    font-size: 12px;
+    color: #3CC2A5; }
+
+/*# sourceMappingURL=2shoujie.css.map */
